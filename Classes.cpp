@@ -8,4 +8,5 @@ int main(){
     Persona a("Cristobal");
 
     cout << a.getNombre() << endl;
+    return 0;
 }

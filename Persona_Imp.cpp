@@ -4,16 +4,17 @@
 using namespace std;
 
 //Constructor Persona(string) uses setNombre(string).
-Persona::Persona(string nombre){
-    setNombre(nombre);
+// 'nombreP': Nombre para el prototipo.
+Persona::Persona(string nombreP){
+    setNombre(nombreP);
 }
 
 //Void setter: setNombre(string).
-void Persona::setNombre(string nombre){
-    Persona::nombre = nombre;
+void Persona::setNombre(string nombreP){
+    nombre = nombreP;
 }
 
 //getter: getNombre(); returns a string 'nombre'.
 string Persona::getNombre(){
-    return Persona::nombre;
+    return nombre;
 }
