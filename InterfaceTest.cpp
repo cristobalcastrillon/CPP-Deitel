@@ -5,7 +5,9 @@ using namespace std;
 
 int main(){
 
-    // Clase a = Clase("a");
+    Clase a("a");
+
+    cout << a.getNombre() << endl;
 
     return 0;
 }
