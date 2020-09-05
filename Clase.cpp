@@ -4,14 +4,14 @@
 
 using namespace std;
 
-Clase::Clase(const string n){
+Clase::Clase(string n){
     setNombre(n);
 }
 
 void Clase::setNombre(string n){
-    nombre = n;
+    this->nombre = n;
 }
 
 string Clase::getNombre(){
-    return nombre;
+    return this->nombre;
 }

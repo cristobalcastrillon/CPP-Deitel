@@ -5,10 +5,10 @@ using namespace std;
 
 class Clase{
     public:
-        Clase(string);
+        Clase(string n);
         
         //setters:
-        void setNombre(string);
+        void setNombre(string n);
 
         //getters:
         string getNombre();
